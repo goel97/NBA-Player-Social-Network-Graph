@@ -10,13 +10,16 @@ FOR OUTPUT OPEN GRAPH1.HTML OR GRAPH2.HTML
 ## FOR DATA SCRAPING
 
 	python web_scrape.py https://en.wikipedia.org/wiki/Lists_of_National_Basketball_Association_players
+	
 	#saves player links in files links.txt
+	
 	python scrape_players.py/allstarts.py
+	
 	#extracts text from links.txt and append in new doc/extracts with a heading
 
 ## FOR ENTITY RELATION GRAPH
 
->	directory-> Stanford-OpenIE-Python
+	directory-> Stanford-OpenIE-Python
 	python main.py -f input.txt -g
 	Will generate a [GraphViz DOT](http://www.graphviz.org/) graph and its related PNG file in `/tmp/openie/`
 	and a output.txt file with all the extracted relations
@@ -41,29 +44,29 @@ FOR OUTPUT OPEN GRAPH1.HTML OR GRAPH2.HTML
 
 ## FILE DIRECTORY
 
-images 
+* images 
 	- contains the images for node icons
-allstarscrape.py 
+* allstarscrape.py 
 	- extract the wikilinks from allstarlinks.txt and append the data to allstarsdata.txt
-web_scrape.py 
+* web_scrape.py 
 	- extract links for all the nba players (around 4500) and append those links to links.txt
-scrape_players.py
+* scrape_players.py
 	- take wikilinks from links.txt and append text for each player in data.txt
-Standford-OpenIE-Python 
+* Standford-OpenIE-Python 
 	- directory which contain the python wrapper for relation extraction. 	
 	input.txt - The input file containing text data. (copy paste the text from data.txt here)
 	allstarsdata.txt - The input file containing text data for allstars team players 
 	output.txt - Tab separated Ouput File
 	standford-openie - contaisn the java api for standford-corenlp-openie
-relation.txt
+* relation.txt
 	 - contains data in text format from out.dot file (created in home/tmp/openie)
-foo_Out.txt
+* foo_Out.txt
 	 - same as relation.txt but has each relation in separate line
-player.json
+* player.json
 	 - file with the entity-relations in the format required by d3
-graph1.html 
+* graph1.html 
 	- output of graph with node icons as images
-Entity_relation_graph.html/graph2.html 
+* Entity_relation_graph.html/graph2.html 
 	- output of graph with node icons filled with colours accordingly if they are place, player, tittle/award, team. and display node images on mouseover
 
 
