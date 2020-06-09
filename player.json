@@ -1,0 +1,83 @@
+{
+  "nodes": [
+    {"id": "Stephen Curry", "group": 1,"image":"curry"},
+    {"id": "Lebron James", "group": 1,"image":"lebron"},
+    {"id": "Keydren Clark", "group": 1,"image":"clark"},
+    {"id": "Dell Curry", "group": 1,"image":"dell"},
+    
+    {"id": "professional basketball player", "group": 2,"image":"nba"},
+    {"id": "NBA Valuable Player Award", "group": 2,"image":"mvp"},
+    {"id": "Sports Illustrated 's All-Mid-Major", "group": 2,"image":"ncaa"},
+    {"id": "Southern Conference Freshman of Year", "group": 2,"image":"southernconference"},
+    {"id": "American basketball player", "group": 2,"image":"nba"},
+    {"id": "their first championship", "group": 2,"image":"nba"},
+    {"id": "freshmen behind only Lebron James", "group": 2,"image":"ncaa"},
+    {"id": "NCAA freshman season record for 3-point field goals", "group": 2,"image":"ncaa"},
+    {"id": "storied career at Virginia Tech", "group": 2,"image":"vt"},
+    {"id": "retirement", "group": 2,"image":"nba"},
+    {"id": "NBA record for three-pointers made in season", "group": 2,"image":"nba"},
+    {"id": "NCAA record for three-pointers made", "group": 2,"image":"ncaa"},
+    {"id": "NCAA tournament", "group": 2,"image":"ncaa"},
+    {"id": "Southern Conference Player", "group": 2,"image":"southernconference"},
+    {"id": "all-time scoring record for Davidson", "group": 2,"image":"ncaa"},
+    {"id": "college basketball for Davidson", "group": 2,"image":"ncaa"},
+    {"id": "NBA player", "group": 2,"image":"nba"},
+    {"id": "NBA Finals", "group": 2,"image":"nba"},
+    {"id": "NBA history", "group": 2,"image":"nba"},
+    {"id": "most wins in NBA season", "group": 2,"image":"nba"},
+
+    {"id": "Ohio", "group": 4,"image":"ohio"},
+    {"id": "Akron", "group": 4,"image":"ohio"},
+
+    {"id": "Queensway Christian College boys ' basketball team", "group": 6,"image":"ncaa"},
+    {"id": "Hokies", "group": 6,"image":"vt"},
+    {"id": "Davidson", "group": 6,"image":"davidson"},
+    {"id": "Cleveland Cavaliers", "group": 6,"image":"cc"},
+    {"id": "Golden State Warriors", "group": 6,"image":"gsw"}
+  ],
+  "links": [
+    {"source": "Stephen Curry", "target": "professional basketball player", "value": 1, "label": "is a"},
+    {"source": "Stephen Curry", "target": "NBA Valuable Player Award", "value": 1, "label": "has been awarded"},
+    {"source": "Stephen Curry", "target": "Sports Illustrated 's All-Mid-Major", "value": 1, "label": "was honorable mention in"},
+    {"source": "Stephen Curry", "target": "Southern Conference Freshman of Year", "value": 1, "label": "was named"},
+    {"source": "Stephen Curry", "target": "American basketball player", "value": 1, "label": "is"},
+    {"source": "Stephen Curry", "target": "their first championship", "value": 1, "label": "led Golden State Warriors to"},
+    {"source": "Stephen Curry", "target": "freshmen behind only Lebron James", "value": 1, "label": "was second among" },
+    {"source": "Stephen Curry", "target": "NCAA freshman season record for 3-point field goals", "value": 1, "label": "set"},
+    {"source": "Stephen Curry", "target": "NBA record for three-pointers made in season", "value": 1, "label": "set" },
+    {"source": "Stephen Curry", "target": "NCAA record for three-pointers made", "value": 1, "label": "set"},
+    {"source": "Stephen Curry", "target": "Southern Conference Player", "value": 1, "label": "was named"},
+    {"source": "Stephen Curry", "target": "NCAA tournament", "value": 1, "label": "played in" },
+    {"source": "Stephen Curry", "target": "all-time scoring record for Davidson", "value": 1, "label": "set"},
+    {"source": "Stephen Curry", "target": "college basketball for Davidson", "value": 1, "label":"played" },
+    {"source": "Stephen Curry", "target": "NBA player", "value": 1, "label": "is"},
+    {"source": "Stephen Curry", "target": "NBA Finals", "value": 1, "label": "played for gsw in"},
+    {"source": "Stephen Curry", "target": "NBA history", "value": 1, "label": "first player in" },
+    
+    {"source": "Stephen Curry", "target": "Dell Curry", "value": 10, "label": "son of"},   
+    
+    {"source": "Stephen Curry", "target": "Queensway Christian College boys ' basketball team", "value": 1, "label": "played for" },
+    {"source": "Stephen Curry", "target": "Hokies", "value": 1, "label": "played for" },
+    {"source": "Stephen Curry", "target": "Davidson", "value": 1, "label": "played for"},
+    {"source": "Stephen Curry", "target": "Golden State Warriors", "value": 5, "label": "play for" },
+
+    {"source": "Stephen Curry", "target": "Ohio", "value": 1, "label": "was born in"},
+    {"source": "Stephen Curry", "target": "Akron", "value": 1, "label": "was born in" },
+
+    {"source": "Dell Curry", "target": "Cleveland Cavaliers", "value": 1, "label": "was member of" },
+     {"source": "Dell Curry", "target": "retirement", "value": 1, "label": "Following" },
+    {"source": "Dell Curry", "target": "professional basketball player", "value": 1, "label": "was a"},
+    {"source": "Dell Curry", "target": "NBA player", "value": 1, "label": "was a" },
+    {"source": "Dell Curry", "target": "storied career at Virginia Tech", "value": 1, "label": "had a" },
+
+    {"source": "Golden State Warriors", "target": "most wins in NBA season", "value": 1, "label": "broke record for" },
+    {"source": "Golden State Warriors", "target": "Stephen Curry", "value": 1, "label": "player"},
+    {"source": "Golden State Warriors", "target": "their first championship", "value": 1, "label": "curry led" },
+
+    {"source": "Lebron James", "target": "professional basketball player", "value": 1, "label": "is a" },
+     {"source": "Lebron James", "target": "NBA player", "value": 1, "label": "is a" },
+     {"source": "Lebron James", "target": "American basketball player", "value": 1, "label": "is a "},
+    {"source": "Lebron James", "target": "NBA Valuable Player Award", "value": 2, "label": "has been awarded" },
+    {"source": "Lebron James", "target": "Cleveland Cavaliers", "value": 5, "label": "played for"} 
+ ]
+}
